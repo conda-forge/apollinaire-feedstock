@@ -1,5 +1,5 @@
 {% set name = "apollinaire" %}
-{% set version = "0.13" %}
+{% set version = "0.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apollinaire-{{ version }}.tar.gz
-  sha256: 2f90b098de0ed935b2b660ac3cc8461529479405c4a88a5d1a72f85680df7cd1
+  sha256: de3957070d8edd280390d2d9dff1c3e9a32fc4d40090707741bb3ceb1aac85ed
 
 build:
   number: 0
