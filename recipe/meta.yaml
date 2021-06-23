@@ -36,6 +36,8 @@ requirements:
     - scipy
     - statsmodels
     - urllib3
+    - matplotlib
+    - tqdm
 
 test:
   imports:
