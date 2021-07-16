@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apollinaire-{{ version }}.tar.gz
-  sha256: de3957070d8edd280390d2d9dff1c3e9a32fc4d40090707741bb3ceb1aac85ed
+  sha256: cc985f6697ae03b54817a985ce5238ed13fa7e5653c2937108585c9447c2eab5 
 
 build:
   number: 0
