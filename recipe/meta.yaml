@@ -11,7 +11,7 @@ source:
   sha256: cc985f6697ae03b54817a985ce5238ed13fa7e5653c2937108585c9447c2eab5 
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,7 +36,7 @@ requirements:
     - scipy
     - statsmodels
     - urllib3
-    - matplotlib
+    - matplotlib-base
     - tqdm
 
 test:
