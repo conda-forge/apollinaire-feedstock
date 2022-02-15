@@ -36,7 +36,7 @@ requirements:
     - scipy
     - statsmodels
     - urllib3
-    - matplotlib
+    - matplotlib-base
     - tqdm
 
 test:
