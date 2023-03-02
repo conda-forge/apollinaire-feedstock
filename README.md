@@ -1,11 +1,11 @@
-About apollinaire
-=================
+About apollinaire-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apollinaire-feedstock/blob/main/LICENSE.txt)
 
 Home: https://apollinaire.readthedocs.io
 
 Package license: CECILL-2.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apollinaire-feedstock/blob/master/LICENSE.txt)
 
 Summary: Module for helio- and asteroseismic data analysis
 
@@ -25,8 +25,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12847&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/apollinaire-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12847&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/apollinaire-feedstock?branchName=main">
       </a>
     </td>
   </tr>
