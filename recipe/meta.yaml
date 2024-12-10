@@ -11,7 +11,7 @@ source:
   sha256: 81530917605dfd8d30dc16f09bbd92454130f1ef92a471159bf59b988cf96602
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - astropy
+    - astropy-base
     - corner
     - dill
     - emcee
