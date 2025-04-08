@@ -1,5 +1,6 @@
 {% set name = "apollinaire" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
+{% set python_min = "3.9" %}
 
 
 package:
@@ -7,8 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apollinaire-{{ version }}.tar.gz
-  sha256: 81530917605dfd8d30dc16f09bbd92454130f1ef92a471159bf59b988cf96602
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apollinaire-{{ version }}.tar.gz
+  sha256: 0e81d332dcec280e2d3b39ac489bb3b55a4c0bed42f678e9ea9840988c6d35d8
 
 build:
   number: 0
@@ -18,9 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - setuptools
+    - python {{ python_min }}
   run:
-    - astropy
+    - python >={{ python_min }}
+    - astropy-base
     - corner
     - dill
     - emcee
@@ -32,7 +35,6 @@ requirements:
     - numpy
     - pandas
     - pathos
-    - python >=3.7
     - scipy
     - statsmodels
     - urllib3
@@ -47,6 +49,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://apollinaire.readthedocs.io
